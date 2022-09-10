@@ -1,4 +1,4 @@
-# <span style="color:blue">cs.</span><span style="color:yellow">Web</span>
+# <span style="color:#234ed2">cs.</span><span style="color:#edef08">Web</span>
 
 ## **Our Goal:**
 
