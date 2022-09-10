@@ -1,4 +1,4 @@
-<img src="./assets/cs.WebT.png">
+<img src="./assets/cs.WebT.png" alt="cs.WebLogo">
 
 # <span style="color:#234ed2">cs.</span><span style="color:#edef08">Web</span>
 
@@ -15,3 +15,11 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 - Provide Quality Customer Care and Service.
 - Provide Personable and Intuitive Customer Contact focused on the Customers Goals first.
 - Local Simple Web Design.
+
+<br><br>
+
+## **Initial Concepts**
+
+#
+
+<img src="./assets/concept1.1.png" alt="concept content 1.1">
