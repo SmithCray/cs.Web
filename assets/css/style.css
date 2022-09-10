@@ -1,1 +1,13 @@
-
+#body {
+  background-color: blueviolet;
+  flex: content;
+}
+#header {
+  background-color: aqua;
+}
+#nav {
+  background-color: darkgreen;
+}
+#footer {
+  background-color: coral;
+}
