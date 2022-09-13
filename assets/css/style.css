@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-#logo {
+#logoImage {
   padding-left: 35px;
   /* size: 25vw; */
 }
@@ -19,6 +19,12 @@
   padding-left: 20vw;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+#socialBtn {
+  flex: content;
+  padding: 18px;
+  font-size: 25px;
+  color: #234ed2;
 }
 
 #text1 {
