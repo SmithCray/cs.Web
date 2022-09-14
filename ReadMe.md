@@ -24,6 +24,6 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 
 <img src="./assets/concept1.1.png" alt="concept content 1.1">
 
-- Email, Facebook, Twitter anchors
+- Email, Facebook, Twitter, linkedin anchors
 
 <img src="./assets/concept1.2.png" alt="concept content 1.2">

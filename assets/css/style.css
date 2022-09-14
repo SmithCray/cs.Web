@@ -41,8 +41,22 @@
   /* marker: none; */
   /* justify-content: space-around; */
 }
+#slideShow {
+  display: flex;
+}
+.w3-button {
+  background-color: #234ed2;
+  color: #edef08;
+  font-size: 22px;
+  border-radius: 5px;
+}
 #nav {
-  /* background-color: darkgreen; */
+  text-align: center;
+  flex: content;
+  font-size: 78px;
+}
+.navLink {
+  padding: 25px;
 }
 #footer {
   /* background-color: coral; */
