@@ -41,23 +41,40 @@
   /* marker: none; */
   /* justify-content: space-around; */
 }
-#slideShow {
+/* .text3 {
+  padding-left: 16vw;
+} */
+/* #slideShow {
   display: flex;
 }
 .w3-button {
+  padding: 10px 40px;
   background-color: #234ed2;
   color: #edef08;
   font-size: 22px;
   border-radius: 5px;
-}
-#nav {
+} */
+/* #nav {
   text-align: center;
   flex: content;
   font-size: 78px;
 }
 .navLink {
   padding: 25px;
-}
+} */
 #footer {
   /* background-color: coral; */
+}
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 45vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
