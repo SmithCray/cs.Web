@@ -10,7 +10,7 @@
   padding-left: 35px;
   /* size: 25vw; */
 }
-.ul {
+.headerList {
   text-align: center;
   flex: content;
   /* justify-content: space-around; */
@@ -40,6 +40,23 @@
   flex-wrap: wrap;
   /* marker: none; */
   /* justify-content: space-around; */
+}
+.slideshow-container {
+  flex: content;
+  display: flex;
+  padding-left: 10px;
+}
+.mySlides {
+  display: flex;
+}
+.navLink {
+  display: flex;
+  font-size: 5vw;
+  justify-content: center;
+  padding-top: 35px;
+  text-decoration: none;
+}
+.navList {
 }
 /* .text3 {
   padding-left: 16vw;
