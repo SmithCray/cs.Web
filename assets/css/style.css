@@ -44,19 +44,49 @@
 .slideshow-container {
   flex: content;
   display: flex;
-  padding-left: 10px;
 }
 .mySlides {
   display: flex;
+  border-top: solid black;
 }
 .navLink {
   display: flex;
-  font-size: 5vw;
+  font-size: 3.8vw;
   justify-content: center;
-  padding-top: 35px;
+  padding-top: 25px;
   text-decoration: none;
 }
 .navList {
+}
+.missionTitle {
+  padding: 20px;
+  font-size: 35px;
+  color: #234ed2;
+}
+.mission {
+  flex: content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.missionText {
+  display: flex;
+  font-size: 2vw;
+  justify-content: center;
+  padding-left: 45px;
+  line-height: 2;
+  /* background-color: beige; */
+}
+.toolList {
+  padding: 25px;
+}
+.tool {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
+  padding-top: 15px;
+  padding-left: 25px;
+  color: #234ed2;
 }
 /* .text3 {
   padding-left: 16vw;
