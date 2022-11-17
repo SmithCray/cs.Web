@@ -64,10 +64,11 @@
 }
 .missionText {
   display: flex;
-  font-size: 2vw;
+  font-size: 1.5vw;
   justify-content: center;
   padding-left: 45px;
   line-height: 2;
+  font-style: italic;
 }
 .toolList {
   padding: 25px;
