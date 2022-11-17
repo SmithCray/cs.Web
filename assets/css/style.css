@@ -21,7 +21,7 @@
   padding-left: 18px;
   padding-top: 18px;
   padding-bottom: 18px;
-  padding-right: 30px;
+  padding-right: 25px;
   font-size: 25px;
   color: #234ed2;
 }
@@ -45,10 +45,12 @@
 }
 .navLink {
   display: flex;
+  flex-wrap: wrap;
   font-size: 3.8vw;
   justify-content: center;
-  padding-top: 25px;
   text-decoration: none;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 .missionTitle {
   padding: 20px;
