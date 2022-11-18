@@ -43,6 +43,24 @@
   display: flex;
   border-top: solid black;
 }
+.button {
+  flex: content;
+  border: none;
+  color: #234ed2;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin: 16vw;
+  cursor: pointer;
+  background-color: #234ed2;
+  border-radius: 22px;
+}
+.btnLink {
+  text-decoration: none;
+  color: #edef08;
+}
 .navLink {
   display: flex;
   flex-wrap: wrap;
