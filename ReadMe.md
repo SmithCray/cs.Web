@@ -31,3 +31,11 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 - Main Part2
 
 <img src="./assets/concept2.1.png" alt="concept content 2.1">
+
+<br>
+
+<br>
+
+## Updated wireframe
+
+<img src="./assets/V2cs.WebPre.png" alt="initial release build">
