@@ -26,15 +26,16 @@
 
 #text1 {
   padding-top: 2rem;
-  font-size: 2rem;
+  font-size: 45px;
 }
 #text2 {
-  font-size: 2rem;
+  font-size: 45px;
 }
 .mySlides {
   padding-left: 2rem;
-  max-width: 55%;
-  min-width: 50%;
+  padding-right: 2rem;
+  max-width: 900px;
+  min-width: 200px;
   display: none;
   padding-bottom: 2rem;
 }
@@ -61,8 +62,9 @@
   color: #234ed2;
 }
 .missionText {
-  padding: 4rem;
-  font-size-adjust: inherit;
-  line-height: 2;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: 32px;
+  line-height: 1.5;
   font-style: italic;
 }
