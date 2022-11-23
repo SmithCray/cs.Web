@@ -25,11 +25,11 @@
 }
 
 #text1 {
-  padding-top: 2rem;
-  font-size: 45px;
+  padding-top: 2.5rem;
+  font-size: 1.8rem;
 }
 #text2 {
-  font-size: 45px;
+  font-size: 1.8rem;
 }
 .mySlides {
   padding-left: 2rem;
@@ -62,7 +62,7 @@
 }
 .missionText {
   padding: 2rem;
-  font-size: 28px;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-style: italic;
 }
