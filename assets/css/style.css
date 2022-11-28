@@ -26,6 +26,13 @@
   flex-wrap: wrap;
   padding-top: 2rem;
 }
+.flexbox-container4 {
+  /* background-color: white; */
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
 .headerList {
   text-align: center;
   margin: 2rem;
@@ -38,13 +45,14 @@
   font-size: 25px;
   color: #234ed2;
 }
-
 #text1 {
+  padding-right: 2rem;
   padding-top: 2.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 #text2 {
-  font-size: 1.8rem;
+  padding-right: 2rem;
+  font-size: 2rem;
 }
 #darkBtn {
   float: right;
@@ -60,7 +68,7 @@
 .mySlides {
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 75%;
+  width: 75%;
   display: none;
   padding-bottom: 2rem;
 }
