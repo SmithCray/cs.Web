@@ -42,7 +42,7 @@
 }
 #socialBtn {
   padding-bottom: 22px;
-  font-size: 25px;
+  font-size: 32px;
   color: #234ed2;
 }
 #text1 {
@@ -66,9 +66,10 @@
   border-radius: 22px;
 }
 .mySlides {
+  flex-basis: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  width: 75%;
+  width: 70vw;
   display: none;
   padding-bottom: 2rem;
 }
