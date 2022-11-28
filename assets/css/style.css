@@ -66,3 +66,7 @@
   line-height: 1.5;
   font-style: italic;
 }
+#footer {
+  font-size: 15px;
+  text-align: center;
+}
