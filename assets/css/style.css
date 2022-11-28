@@ -1,12 +1,20 @@
-.flexbox-container {
+.body {
+  background-color: black;
+  color: white;
+}
+.dark-mode {
   background-color: white;
+  color: black;
+}
+.flexbox-container {
+  /* background-color: white; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 10px;
 }
 .flexbox-container2 {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
@@ -30,6 +38,18 @@
 }
 #text2 {
   font-size: 1.8rem;
+}
+#darkBtn {
+  float: right;
+  border: none;
+  padding: 6px 15px;
+  border-right: 15rem;
+  font-size: 12px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #234ed2;
+  color: #edef08;
+  border-radius: 22px;
 }
 .mySlides {
   padding-left: 2rem;
