@@ -103,6 +103,9 @@
 .resourceItem {
   line-height: 2;
 }
+.resourceLink {
+  color: #234ed2;
+}
 #footer {
   font-size: 15px;
   text-align: center;
