@@ -19,6 +19,13 @@
   flex-wrap: wrap;
   padding-top: 2rem;
 }
+.flexbox-container3 {
+  /* background-color: white; */
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
 .headerList {
   text-align: center;
   margin: 2rem;
@@ -43,7 +50,6 @@
   float: right;
   border: none;
   padding: 6px 15px;
-  border-right: 15rem;
   font-size: 12px;
   margin: auto;
   cursor: pointer;
@@ -85,6 +91,17 @@
   font-size: 1.2rem;
   line-height: 1.5;
   font-style: italic;
+}
+.resourceTitle {
+  text-decoration: underline;
+  padding-left: 2rem;
+  color: #234ed2;
+}
+.resourceList {
+  padding-bottom: 3rem;
+}
+.resourceItem {
+  line-height: 2;
 }
 #footer {
   font-size: 15px;
