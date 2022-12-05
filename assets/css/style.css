@@ -7,40 +7,50 @@
   color: black;
 }
 .flexbox-container {
-  /* background-color: white; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 10px;
 }
 .flexbox-container2 {
-  /* background-color: white; */
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
 }
 .flexbox-container3 {
-  /* background-color: white; */
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
 }
 .flexbox-container4 {
-  /* background-color: white; */
+  align-self: center;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 .headerList {
   text-align: center;
   margin: 2rem;
 }
+.socialBck {
+  background-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+}
 .socialList {
   margin: 2rem;
 }
 #socialBtn {
+  justify-content: space-around;
   padding-bottom: 22px;
   font-size: 32px;
   color: #234ed2;
@@ -69,6 +79,7 @@
   flex-basis: auto;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 1rem;
   width: 70vw;
   display: none;
   padding-bottom: 2rem;
