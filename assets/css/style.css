@@ -37,9 +37,6 @@
 .header {
   display: flex;
 }
-.body {
-  /* display: flex; */
-}
 .socialBck {
   background-color: white;
   border-radius: 15px;
