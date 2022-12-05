@@ -24,7 +24,6 @@
   padding-top: 2rem;
 }
 .flexbox-container4 {
-  flex-shrink: 2;
   align-self: center;
   justify-content: space-around;
   display: flex;
@@ -34,6 +33,12 @@
 .headerList {
   text-align: center;
   margin: 2rem;
+}
+.header {
+  display: flex;
+}
+.body {
+  /* display: flex; */
 }
 .socialBck {
   background-color: white;
