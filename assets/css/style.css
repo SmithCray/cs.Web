@@ -24,9 +24,11 @@
   padding-top: 2rem;
 }
 .flexbox-container4 {
+  flex-shrink: 4;
   align-self: center;
   justify-content: space-around;
   display: flex;
+  /* flex-wrap: wrap; */
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
