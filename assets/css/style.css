@@ -10,12 +10,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 10px;
 }
 .flexbox-container2 {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2rem;
 }
 .flexbox-container3 {
   justify-content: space-around;
@@ -27,8 +25,14 @@
   align-self: center;
   justify-content: space-around;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
+  border-bottom-style: solid;
+  box-shadow: 10px 30px 35px 9px rgba(3, 102, 214, 0.3);
+}
+#logoImage {
+  min-width: 180px;
+  max-width: 255px;
 }
 .headerList {
   text-align: center;
@@ -38,6 +42,7 @@
   display: flex;
 }
 .socialBck {
+  font-size: 4px;
   background-color: white;
   border-radius: 15px;
   border-style: solid;
@@ -55,7 +60,7 @@
 #socialBtn {
   justify-content: space-around;
   padding-bottom: 22px;
-  font-size: 32px;
+  font-size: 20px;
   color: #234ed2;
 }
 #text1 {
@@ -66,6 +71,11 @@
 #text2 {
   padding-right: 2rem;
   font-size: 2rem;
+}
+.darkDivide {
+  padding-top: 1.5rem;
+  padding-right: 1.8rem;
+  padding-bottom: 3rem;
 }
 #darkBtn {
   float: right;
@@ -78,16 +88,17 @@
   color: #edef08;
   border-radius: 22px;
 }
-.mySlides {
-  flex-basis: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  width: 70vw;
-  display: none;
+.slideshow-container {
   padding-bottom: 2rem;
 }
+.mySlides {
+  width: 70vw;
+  display: none;
+  border-style: solid;
+  border-color: white;
+}
 .button {
+  padding-top: 2rem;
   border: none;
   color: #234ed2;
   padding: 12px 30px;
