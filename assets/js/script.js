@@ -19,3 +19,6 @@ function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+document.querySelector(".banner__close").addEventListener("click", function () {
+  this.closest(".banner").style.display = "none";
+});

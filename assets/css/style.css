@@ -26,9 +26,29 @@
   justify-content: space-around;
   display: flex;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   border-bottom-style: solid;
-  box-shadow: 10px 30px 35px 9px rgba(3, 102, 214, 0.3);
+  box-shadow: 10px 30px 35px 0px rgba(3, 102, 214, 0.3);
+}
+.banner {
+  background: #f0ea1b;
+}
+.banner__content {
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.banner__text {
+  color: black;
+  font-size: 20px;
+  flex-grow: 1;
+  font-family: "Quicksand", sans-serif;
+}
+.banner__close {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 #logoImage {
   min-width: 180px;
@@ -47,7 +67,7 @@
   border-radius: 15px;
   border-style: solid;
   border-color: black;
-  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 10px 5px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 10px 25px 2px;
 }
 .socialList {
   margin: 2rem;
@@ -140,4 +160,15 @@
   padding-bottom: 0.5rem;
   font-size: 15px;
   text-align: center;
+}
+@media screen and (max-width: 450px) {
+  #logoImage {
+    width: 180px;
+  }
+  .mySlides {
+    width: 360px;
+  }
+  .banner__text {
+    font-size: 14px;
+  }
 }
