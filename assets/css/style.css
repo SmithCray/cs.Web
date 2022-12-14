@@ -161,6 +161,7 @@
   font-size: 15px;
   text-align: center;
 }
+/* Mobile Response */
 @media screen and (max-width: 450px) {
   #logoImage {
     width: 180px;
