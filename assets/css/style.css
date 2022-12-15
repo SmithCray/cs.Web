@@ -103,6 +103,18 @@
   color: #edef08;
   border-radius: 22px;
 }
+#businessCard {
+  text-decoration: none;
+  float: right;
+  border: none;
+  padding: 6px 15px;
+  font-size: 12px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #234ed2;
+  color: #edef08;
+  border-radius: 22px;
+}
 .slideshow-container {
   padding-bottom: 2rem;
 }
@@ -112,7 +124,7 @@
   border-style: solid;
   border-color: white;
 }
-.button {
+.button1 {
   padding-top: 2rem;
   border: none;
   color: #234ed2;
@@ -125,9 +137,18 @@
   background-color: #234ed2;
   border-radius: 22px;
 }
+.button2 {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
 .btnLink {
   text-decoration: none;
   color: #edef08;
+}
+#bCard {
+  width: 42vw;
+  border-style: solid;
+  border-color: black;
 }
 .missionTitle {
   padding-top: 3rem;
@@ -171,5 +192,8 @@
   }
   .banner__text {
     font-size: 14px;
+  }
+  #bCard {
+    width: 85vw;
   }
 }
