@@ -66,21 +66,34 @@
       >
         <h1 class="formTitle">New Customer Form</h1>
         <label><strong>Name:(Required)</strong></label
-        ><input type="text" id="name" placeholder="John Doe" required />
+        ><input
+          type="text"
+          name="name"
+          id="customerName"
+          placeholder="John Doe"
+          required
+        />
         <label><strong>Company or Project Name:(Required)</strong></label>
         <input type="text" id="project" placeholder="cs.Web" required />
         <label><strong>Contact Email:(Required)</strong></label>
         <input
           type="email"
-          id="email"
+          name="email"
+          id="customerEmail"
           placeholder="example@email.com"
           required
         />
         <label><strong>Phone Number:(Optional)</strong></label>
-        <input type="tel" id="Phone #" placeholder="555-555-5555" />
+        <input
+          type="tel"
+          name="phone"
+          id="phoneNumber"
+          placeholder="555-555-5555"
+        />
         <label><strong>Project Proposal:(Required)</strong></label>
         <textarea
-          id="proposal"
+          id="customerProposal"
+          name="proposal"
           rows="4"
           placeholder="Please describe your Project in detail"
           required
