@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Customer Form</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <div class="flexbox-container">
+        <div>
+          <a href="./index.html" title="Homepage">
+            <img src="./assets/cs.WebT.png" alt="cs.Web Logo" id="logoImage" />
+          </a>
+        </div>
+        <!-- Header message -->
+        <div>
+          <ul class="headerList">
+            <li id="text1">- Simple Easy Web Design -</li>
+            <li id="text2">"Moving you forward"</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--
+    <div class="formAbout">
+      <h1><strong>New Customers,</strong></h1>
+      <br />
+      <h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea labore
+        aliquid cupiditate vitae, vero eum. Atque laboriosam et tenetur quos
+        aliquam fugit placeat necessitatibus reprehenderit dolore sunt nesciunt
+        natus incidunt rerum minus delectus perferendis labore, vero officiis
+        rem laborum quis optio. Magni praesentium corporis iure. Iste corrupti
+        rem temporibus! Recusandae vel voluptatibus eius, quia omnis iusto
+        molestiae, neque ducimus quisquam possimus error facilis, perspiciatis
+        distinctio consequatur quo mollitia magnam et dolorum! Repellat incidunt
+        illo alias quae delectus dolorem voluptatum praesentium minus
+        asperiores. Debitis, atque. Sed qui sequi natus, in facere placeat ex
+        similique ducimus eveniet quisquam, vero nam odio enim?
+      </h2>
+    </div>
+    -->
+    <div class="flexbox-container formPage">
+      <form
+        class="form"
+        form
+        action="https://formsubmit.co/cs.webbb@gmail.com"
+        method="POST"
+      >
+        <h1 class="formTitle">New Customer Form</h1>
+        <label><strong>Name:(Required)</strong></label
+        ><input type="text" id="name" placeholder="John Doe" required />
+        <label><strong>Company or Project Name:(Required)</strong></label>
+        <input type="text" id="project" placeholder="cs.Web" required />
+        <label><strong>Contact Email:(Required)</strong></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@email.com"
+          required
+        />
+        <label><strong>Phone Number:(Optional)</strong></label>
+        <input type="tel" id="Phone #" placeholder="555-555-5555" />
+        <label><strong>Project Proposal:(Required)</strong></label>
+        <textarea
+          id="proposal"
+          rows="4"
+          placeholder="Please describe your Project in detail"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- Footer and Copyright -->
+    <hr />
+    <footer id="footer">&copy;Copyright 2022 cs.Web</footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

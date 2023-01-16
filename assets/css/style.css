@@ -124,8 +124,12 @@
   border-style: solid;
   border-color: white;
 }
+.mainLinks {
+  padding: 7rem;
+  align-self: center;
+}
 .button1 {
-  padding-top: 2rem;
+  padding-top: 3rem;
   border: none;
   color: #234ed2;
   padding: 12px 30px;
@@ -182,6 +186,66 @@
   font-size: 15px;
   text-align: center;
 }
+/* Form Start */
+.formAbout {
+  margin: 5rem 15rem;
+  font-size: 22px;
+  font-family: "Quicksand", sans-serif;
+}
+.formPage {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.form {
+  background: #fcf5e5;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 880px;
+  border-radius: 10px;
+  box-shadow: 5px 0px 15px 2px black;
+}
+.formTitle {
+  color: #234ed2;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+form input {
+  border: solid grey;
+  margin: 10px 0;
+  padding: 1rem;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 1rem;
+}
+form textarea {
+  border: solid grey;
+  margin: 10px 0;
+  padding: 1rem;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 1rem;
+  height: 400px;
+  overflow: auto;
+}
+form button {
+  padding: 15px;
+  background: #234ed2;
+  color: #edef08;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto;
+  border-radius: 30px;
+}
 /* Mobile Response */
 @media screen and (max-width: 450px) {
   #logoImage {
@@ -195,5 +259,13 @@
   }
   #bCard {
     width: 85vw;
+  }
+  .mainLinks {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .formAbout {
+    margin: 15px 8px;
   }
 }
