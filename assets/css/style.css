@@ -188,9 +188,9 @@
 }
 /* Form Start */
 .formAbout {
-  margin: 5rem 15rem;
-  font-size: 22px;
-  font-family: "Quicksand", sans-serif;
+  margin: 1rem 15rem 5rem 15rem;
+  font-size: 18px;
+  line-height: 1.5;
 }
 .formPage {
   background: white;
@@ -264,8 +264,9 @@ form button {
     padding: 5rem;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
   .formAbout {
-    margin: 15px 8px;
+    font-size: 14px;
+    margin: 1rem 1rem 2rem 1rem;
   }
 }
