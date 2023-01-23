@@ -246,6 +246,21 @@ form button {
   margin: 20px auto;
   border-radius: 30px;
 }
+/* Success Start */
+.successMessage {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#thankYou {
+  font-size: 26px;
+}
+#successYou {
+  font-size: 26px;
+}
 /* Mobile Response */
 @media screen and (max-width: 450px) {
   #logoImage {
