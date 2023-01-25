@@ -255,6 +255,11 @@ form button {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.submitDisclaimer {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+}
 #thankYou {
   font-size: 26px;
 }
