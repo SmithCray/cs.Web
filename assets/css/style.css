@@ -119,6 +119,7 @@
   padding-bottom: 2rem;
 }
 .mySlides {
+  height: 75vh;
   width: 70vw;
   display: none;
   border-style: solid;
@@ -267,11 +268,12 @@ form button {
   font-size: 26px;
 }
 /* Mobile Response */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   #logoImage {
     width: 180px;
   }
   .mySlides {
+    height: 350px;
     width: 360px;
   }
   .banner__text {
