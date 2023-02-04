@@ -119,7 +119,6 @@
   padding-bottom: 2rem;
 }
 .mySlides {
-  /* height: 75vh; */
   width: 70vw;
   display: none;
   border-style: solid;
@@ -273,7 +272,6 @@ form button {
     width: 180px;
   }
   .mySlides {
-    /* height: 350px; */
     width: 360px;
   }
   .banner__text {
