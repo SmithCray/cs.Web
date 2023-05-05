@@ -22,15 +22,15 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 
 #
 
-<img src="./assets/concept1.1.png" alt="concept content 1.1">
+<img src="./assets/imaages/concept1.1.png" alt="concept content 1.1">
 
 - Email, Facebook, Twitter, linkedin anchors
 
-<img src="./assets/concept1.2.png" alt="concept content 1.2">
+<img src="./assets/images/concept1.2.png" alt="concept content 1.2">
 
 - Main Part2
 
-<img src="./assets/concept2.1.png" alt="concept content 2.1">
+<img src="./assets/images/concept2.1.png" alt="concept content 2.1">
 
 <br>
 
@@ -38,4 +38,6 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 
 ## Updated wireframe
 
-<img src="./assets/V2cs.WebPre.png" alt="initial release build">
+<img src="./assets/images/V2cs.WebPre.png" alt="initial release build">
+
+## Navbar Expansion V.2
