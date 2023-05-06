@@ -40,4 +40,14 @@ Welcome to _**cs.Web**_! We aim to provide high quality customer service focused
 
 <img src="./assets/images/V2cs.WebPre.png" alt="initial release build">
 
+<br>
+
 ## Navbar Expansion V.2
+
+<br>
+
+# Additional Pages
+
+## cs.Web/Bikes
+
+## cs.Web/Games
