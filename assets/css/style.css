@@ -266,33 +266,8 @@ form button {
 #successYou {
   font-size: 26px;
 }
-/* Games Start */
-#games {
-  background-color: black;
-}
-#gamesTitle {
-  color: white;
-  padding-right: 2rem;
-  padding-top: 2.5rem;
-  font-size: 7rem;
-  font-weight: bolder;
-  margin-right: 6rem;
-  font-family: sans-serif;
-}
-/* Bikes Start */
-#bikes {
-  background-color: black;
-}
-#bikesTitle {
-  color: white;
-  padding-right: 2rem;
-  padding-top: 2.5rem;
-  font-size: 7rem;
-  font-weight: bolder;
-  margin-right: 6rem;
-  font-family: sans-serif;
-}
 /* Mobile Response */
+
 @media screen and (max-width: 600px) {
   #logoImage {
     width: 180px;

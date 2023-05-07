@@ -1,0 +1,31 @@
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#logoImage {
+  min-width: 180px;
+  max-width: 255px;
+}
+.headerList {
+  text-align: center;
+  margin: 2rem;
+}
+#bikes {
+  background-color: black;
+}
+#bikesTitle {
+  color: white;
+  padding-right: 2rem;
+  padding-top: 2.5rem;
+  font-size: 7rem;
+  font-weight: bolder;
+  margin-right: 6rem;
+  font-family: sans-serif;
+}
+#footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+  text-align: center;
+}
