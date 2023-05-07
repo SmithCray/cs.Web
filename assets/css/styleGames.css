@@ -4,7 +4,6 @@
   justify-content: center;
 }
 #catImage {
-  /* min-width: 250px; */
   max-width: 80vw;
   margin: 5px;
 }
@@ -17,14 +16,10 @@
 }
 #gamesTitle {
   color: white;
-  /* padding-right: 2rem;
-  padding-top: 2.5rem; */
-  font-size: 6rem;
+  font-size: 15vw;
   font-weight: bolder;
-  /* margin-right: 6rem; */
   font-family: sans-serif;
-  align-self: center;
-  margin: 2rem;
+  margin: 3rem;
 }
 #footer {
   padding-top: 0.5rem;
