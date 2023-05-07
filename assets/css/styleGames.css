@@ -3,24 +3,24 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-/* #logoImage {
-  min-width: 180px;
-  max-width: 255px;
-} */
+#catImage {
+  min-width: 360px;
+  max-width: 500px;
+}
 .headerList {
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 #games {
   background-color: black;
 }
 #gamesTitle {
   color: white;
-  padding-right: 2rem;
-  padding-top: 2.5rem;
-  font-size: 7rem;
+  /* padding-right: 2rem;
+  padding-top: 2.5rem; */
+  font-size: 6rem;
   font-weight: bolder;
-  margin-right: 6rem;
+  /* margin-right: 6rem; */
   font-family: sans-serif;
   align-self: center;
 }
