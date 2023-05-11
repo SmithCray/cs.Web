@@ -54,6 +54,54 @@
   min-width: 180px;
   max-width: 255px;
 }
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  justify-content: right;
+}
+.brand-title {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  display: block;
+}
+.navbar-links li:hover {
+  background-color: #555;
+}
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+}
+.toggle-button .bar {
+  margin: 3px;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.navMenu {
+  margin-right: 10px;
+}
 .headerList {
   text-align: center;
   margin: 2rem;
@@ -266,6 +314,30 @@ form button {
 #successYou {
   font-size: 26px;
 }
+/* Navbar mobile menu */
+@media (max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
 /* Mobile Response */
 
 @media screen and (max-width: 600px) {

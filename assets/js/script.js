@@ -22,3 +22,10 @@ function myFunction() {
 document.querySelector(".banner__close").addEventListener("click", function () {
   this.closest(".banner").style.display = "none";
 });
+
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+toggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
