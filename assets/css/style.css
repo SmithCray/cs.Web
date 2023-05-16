@@ -118,6 +118,9 @@
   border-color: black;
   box-shadow: rgba(3, 102, 214, 0.3) 0px 10px 25px 2px;
 }
+.socialBck:hover {
+  background-color: lightgrey;
+}
 .socialList {
   margin: 2rem;
 }
