@@ -15,7 +15,7 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 
-function myFunction() {
+function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
@@ -24,7 +24,7 @@ document.querySelector(".banner__close").addEventListener("click", function () {
 });
 
 const toggleButton = document.getElementsByClassName("toggle-button")[0];
-const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+const navbarLinks = document.getElementsByClassName("navbarLinks")[0];
 
 toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");

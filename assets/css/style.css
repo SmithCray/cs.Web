@@ -59,31 +59,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  color: white;
+  /* background-color: white; */
+  /* color: white; */
   justify-content: right;
 }
 .brand-title {
   font-size: 2rem;
   margin: 0.5rem;
 }
-.navbar-links ul {
+.navbarLinks ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
-.navbar-links li {
+.navbarLinks li {
   list-style: none;
 }
-.navbar-links li a {
+.navbarLinks li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
   padding: 1rem;
   display: block;
+  color: inherit;
 }
-.navbar-links li:hover {
-  background-color: #555;
+.navbarLinks li:hover {
+  background-color: lightgrey;
 }
 .toggle-button {
   display: none;
@@ -96,7 +97,7 @@
   margin: 3px;
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: #234ed2;
   border-radius: 10px;
 }
 .navMenu {
@@ -319,21 +320,21 @@ form button {
   .toggle-button {
     display: flex;
   }
-  .navbar-links {
+  .navbarLinks {
     display: none;
     width: 100%;
   }
-  .navbar-links ul {
+  .navbarLinks ul {
     width: 100%;
     flex-direction: column;
   }
-  .navbar-links li {
+  .navbarLinks li {
     text-align: center;
   }
-  .navbar-links li a {
+  .navbarLinks li a {
     padding: 0.5rem 1rem;
   }
-  .navbar-links.active {
+  .navbarLinks.active {
     display: flex;
   }
 }
