@@ -6,6 +6,26 @@
 #logoImage {
   max-width: 20vw;
 }
+.bikeArticle {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.bikeCaption {
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  color: white;
+  margin: 1.5rem;
+  line-height: 1.5;
+}
+.imageCap {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: white;
+  font-size: 0.95rem;
+}
 #r3Image1 {
   max-width: 75vw;
   margin: 5px;
