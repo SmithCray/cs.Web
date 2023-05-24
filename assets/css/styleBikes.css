@@ -89,17 +89,15 @@
   margin: 3rem;
 }
 #footer {
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-bottom: 0.5rem;
   font-size: 15px;
   text-align: center;
 }
 
-@media (max-width: 1300px) {
-  .carousel-button.prev {
-    left: 0;
-  }
-  .carousel {
-    margin: 0;
+@media (max-width: 800px) {
+  .slide > img {
+    width: 55vw;
+    height: 35vh;
   }
 }
