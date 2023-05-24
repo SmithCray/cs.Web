@@ -89,7 +89,7 @@
   margin: 3rem;
 }
 #footer {
-  padding-top: 5rem;
+  padding-top: 10rem;
   padding-bottom: 0.5rem;
   font-size: 15px;
   text-align: center;
@@ -97,7 +97,7 @@
 
 @media (max-width: 800px) {
   .slide > img {
-    width: 55vw;
+    width: 58vw;
     height: 35vh;
   }
 }
