@@ -341,9 +341,7 @@ form button {
     display: flex;
   }
 }
-
 /* Mobile Response */
-
 @media screen and (max-width: 600px) {
   #logoImage {
     width: 180px;

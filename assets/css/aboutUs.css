@@ -1,0 +1,193 @@
+.body {
+  background-color: black;
+  color: white;
+}
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexbox-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexbox-container3 {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.flexbox-container4 {
+  align-self: center;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-bottom-style: solid;
+  box-shadow: 10px 30px 35px 0px rgba(3, 102, 214, 0.3);
+}
+#logoImage {
+  min-width: 180px;
+  max-width: 255px;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: white; */
+  /* color: white; */
+  justify-content: right;
+}
+.brand-title {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.navbarLinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbarLinks li {
+  list-style: none;
+}
+.navbarLinks li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  display: block;
+  color: inherit;
+}
+.navbarLinks li:hover {
+  background-color: lightgrey;
+}
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+}
+.toggle-button .bar {
+  margin: 3px;
+  height: 3px;
+  width: 100%;
+  background-color: #234ed2;
+  border-radius: 10px;
+}
+.navMenu {
+  margin-right: 10px;
+}
+.headerList {
+  text-align: center;
+  margin: 2rem;
+}
+.header {
+  display: flex;
+}
+#text1 {
+  padding-right: 2rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+#text2 {
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+.darkDivide {
+  padding-top: 1.5rem;
+  padding-right: 1.8rem;
+  padding-bottom: 3rem;
+}
+#darkBtn {
+  float: right;
+  border: none;
+  padding: 6px 15px;
+  font-size: 12px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #234ed2;
+  color: #edef08;
+  border-radius: 22px;
+}
+.missionTitle {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  font-size: 35px;
+  color: #234ed2;
+}
+.missionText {
+  text-indent: 25px;
+  padding: 3rem;
+  padding-bottom: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+.quotes {
+  color: #234ed2;
+}
+.goalsText {
+  text-indent: 25px;
+  padding: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+#footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+  text-align: center;
+}
+/* Navbar mobile menu */
+@media (max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+  .navbarLinks {
+    display: none;
+    width: 100%;
+  }
+  .navbarLinks ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbarLinks li {
+    text-align: center;
+  }
+  .navbarLinks li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbarLinks.active {
+    display: flex;
+  }
+}
+/* Mobile Response */
+@media screen and (max-width: 600px) {
+  #logoImage {
+    width: 180px;
+  }
+  .mySlides {
+    width: 360px;
+  }
+  .banner__text {
+    font-size: 14px;
+  }
+  #bCard {
+    width: 85vw;
+  }
+  .mainLinks {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .formAbout {
+    font-size: 14px;
+    margin: 1rem 1rem 2rem 1rem;
+  }
+}
