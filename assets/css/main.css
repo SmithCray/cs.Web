@@ -1497,4 +1497,7 @@ body.is-preload-2 #viewer .slide {
     transition-delay: 0.5s;
     opacity: 1;
   }
+  #webTitle {
+    color: #234ed2;
+  }
 }
